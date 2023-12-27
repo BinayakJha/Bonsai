@@ -1,0 +1,59 @@
+.settings-container {
+    width: 100vw;
+    height: 91vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.settings-bar {
+    background-color: #293044;
+    width: max-content;
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+
+input {
+    font-family: 'Nunito', sans-serif;
+}
+
+.settings-button {
+    background-color: #e9a42d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.snippets-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    padding: 3rem;
+    font-size: 26px;
+    overflow: hidden;
+}
+
+.snippets-box {
+    background-color: #626b84;
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    overflow: scroll;
+}
+
+.snip {
+    border-bottom: solid 2px #293044;
+    margin-bottom: 10px;
+}

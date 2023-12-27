@@ -1,0 +1,45 @@
+.main {
+    height: 5rem;
+    background-color: #293044;
+    align-items: center;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white;
+}
+
+.logo {
+    height: 3.5rem;
+    padding-right: 1rem;
+}
+
+.header-element {
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: inherit;
+    color: #e9ebee;
+    font-size: 1rem;
+}
+
+.sign-up {
+    cursor: pointer;
+    background-color: #e9a42d;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.login {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+.divider {
+    flex-grow: 1;
+}

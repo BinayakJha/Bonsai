@@ -1,0 +1,10 @@
+fastapi
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+twilio
+openai
+pymongo
+uvicorn
+bs4
+lxml
